@@ -1,0 +1,1 @@
+This repository demonstrates a subtle error in a Tcl procedure that stems from unintended string comparison. The `badproc` procedure is designed to compare two numerical values, but uses the `==` operator which does string comparison in Tcl. The solution demonstrates the correct numerical comparison using the `>` or `<` operator and the `expr` command.
